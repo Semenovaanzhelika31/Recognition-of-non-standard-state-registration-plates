@@ -22,6 +22,9 @@ python run.py --images /путь/к/каталогу/с/изображениям
 !cd plates_solution && python run.py --images /content/test_images --out /content/result.csv
 ```
 
+## Датасет
+Готовый датасет (5000 синтетических изображений, `meta.csv`, `labels/`, `generator/`, `LICENSE` CC BY 4.0): https://drive.google.com/drive/folders/1BMpO_ctZtyvxnHMKbmIuHxnMvLNsd3vU?usp=drive_link
+
 ## Состав
 ```
 run.py                      точка входа
