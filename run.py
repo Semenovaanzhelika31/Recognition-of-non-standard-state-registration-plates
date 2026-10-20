@@ -1,14 +1,5 @@
 #!/usr/bin/env python3
-"""Распознавание нестандартных ГРЗ: каталог изображений -> CSV.
 
-    python run.py --images /path/to/images --out result.csv
-
-Путь можно передать и переменными окружения PLATES_IMAGES / PLATES_OUT.
-Работает полностью офлайн; зависимости: numpy, opencv-python (см. requirements.txt).
-Формат CSV: разделитель ';', UTF-8, первая строка — заголовок
-    image;plate_num;plate_type;confidence
-Если на изображении знаков нет, строка для него не добавляется.
-"""
 import argparse
 import csv
 import os
